@@ -19,4 +19,4 @@ Using this approach we believe that we can have a cost effective solution that c
 
 If you believe that you can cooperate with us, please stay in touch with us using the following contact below.
 
-Please if you have any doubt, please send message to ricardo.melo@gs1br.org.
+Please if you have any doubt, please send message to ricardo.melo@gs1br.org..
