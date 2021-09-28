@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Liquid XML 2014 Starter Edition 12.2.8.5459 (http://www.liquid-technologies.com) -->
+<!-- 
+
+This file is part of the work made by GS1 Brazil Horizontal Communication Workgroup.
+
+-->
 <xs:schema elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="http://hc.gs1br.org.br/"
            targetNamespace="http://hc.gs1br.org.br/"
-           version="0.1">
+           version="1.0">
     
     <xs:simpleType name="id">
         <xs:annotation>
@@ -40,9 +44,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
- 
-    
     <xs:complexType name="infolist">
         <xs:annotation>
 			<xs:documentation>Info list field for general purporses.</xs:documentation>
