@@ -202,14 +202,16 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
 
                 <xs:element name="partnerFrom"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1"
+                            maxOccurs="1"/>
                 <xs:element name="mbrAgt"
                             type="Partner"
-                            minOccurs="1"
+                            minOccurs="0"
                             maxOccurs="1" />
                 <xs:element name="partnerTo"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1"
+                            maxOccurs="1"/>
                 
                 <xs:element minOccurs="1"
                             maxOccurs="unbounded"
@@ -255,14 +257,17 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
 
                 <xs:element name="partnerFrom"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1"
+                            maxOccurs="1"/>
                 <xs:element name="mbrAgt"
                             type="Partner"
-                            minOccurs="1"
+                            minOccurs="0"
                             maxOccurs="1" />
                 <xs:element name="partnerTo"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1" 
+                            maxOccurs="1"
+                            />
                 <xs:element name="carrier"
                             type="Partner" />
                 <xs:element name="content"
@@ -295,10 +300,12 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
 
                 <xs:element name="partnerFrom"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1"
+                            maxOccurs="1"/>
                 <xs:element name="partnerAttorney"
                             type="Partner"
-                            minOccurs="1" />
+                            minOccurs="1"
+                            maxOccurs="1" />
                 
 
                 <xs:element name="additionalInfo"
