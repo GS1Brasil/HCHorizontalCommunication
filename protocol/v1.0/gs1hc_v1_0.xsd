@@ -144,6 +144,8 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                         type="file"
                         minOccurs="1"
                         maxOccurs="1" />
+            <xs:element name="additionalInfo"
+                            type="infolist" maxOccurs="unbounded"></xs:element>
         </xs:sequence>
     </xs:complexType>
     
