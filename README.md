@@ -26,4 +26,5 @@ Please if you have any doubt, please send message to ricardo.melo@gs1br.org..
 
 Access the current version of the Spec in the link below.
 
-[Version 1.0](V1.0/README.md)
+[Version 1.0](V1.0/)
+[Version 1.0 Readme](V1.0/README.md)
