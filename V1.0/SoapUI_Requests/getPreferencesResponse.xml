@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:getPreferencesResponse xmlns:ns2="http://ws.med.healthcare.gs1br.org/">
+         <return><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PreferenceData id="3B1262BDC0084826B29E9357EF03958E" xmlns="http://hc.gs1br.org.br/">
+    <partner>
+        <partnerKey>CNPJ</partnerKey>
+        <partnerValue>13041786000176</partnerValue>
+    </partner>
+    <preferences>
+        <info key="key0">value0</info>
+        <info key="key1">value1</info>
+        <info key="key2">value2</info>
+        <info key="key3">value3</info>
+        <info key="key4">value4</info>
+        <info key="key5">value5</info>
+        <info key="key6">value6</info>
+    </preferences>
+</PreferenceData>]]></return>
+      </ns2:getPreferencesResponse>
+   </soap:Body>
+</soap:Envelope>

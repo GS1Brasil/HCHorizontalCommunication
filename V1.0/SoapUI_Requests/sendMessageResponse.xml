@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:sendMessageResponse xmlns:ns2="http://ws.med.healthcare.gs1br.org/">
+         <return><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InboundResponse id="EF5F7D0886F44C2CBFBA42C2B0EE4E13" date="2021-10-05T20:09:44Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+    <sender>
+        <partnerKey>CNPJ</partnerKey>
+        <partnerValue>15041786000176</partnerValue>
+    </sender>
+	<receiver>
+        <partnerKey>CNPJ</partnerKey>
+        <partnerValue>15042274000195</partnerValue>
+    </receiver>
+    <receipt>EF5F7D0886F44C2CBFBA</receipt>
+</InboundResponse>]]></return>
+      </ns2:sendMessageResponse>
+   </soap:Body>
+</soap:Envelope>
