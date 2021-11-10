@@ -1,4 +1,5 @@
 # HCHorizontalCommunication
+
 In Brazil we have the obligation to implement the Drug Traceability defined by the Law 13.410 and we have two types of communication to cover.
 
 The first one is the Vertical communication that is the information we need to send to ANVISA. This information flow is only for regulatory purposes and allows ANVISA to receive and process the drug traceability information in order to avoid illegal products in the market and identify potential health problems based on the medicines consumption.
@@ -20,3 +21,9 @@ Using this approach we believe that we can have a cost effective solution that c
 If you believe that you can cooperate with us, please stay in touch with us using the following contact below.
 
 Please if you have any doubt, please send message to ricardo.melo@gs1br.org..
+
+## Check out the Version 1.0
+
+Access the current version of the Spec in the link below.
+
+[Version 1.0] (V1.0/Readme.md)
