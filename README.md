@@ -7,9 +7,11 @@ The first one is the Vertical communication that is the information we need to s
 In this scenario, ANVISA are not aware about the information flow in the supply chain and it put in the private sector the need to create a parallel information flow to connect each trading partner in order to exchange information about inbound and outbound operations.
 
 The problem.
+
 Of course we have all the technology available to do it but unfortunately we also have some problems to keep all the stakeholders aligned in the direction to standardize the communication and without a initiative like this one, each trading partner can spend a lot of money to organize all the customers and suppliers around one (or more than one) standard. Doesn´t matter here which standard or technology to use but the problem is that each one will have their own preferences and the cost probably will be increased because of it.
 
 The initiative.
+
 The GS1 Horizontal Communication working group can address this problem by putting all the stakeholders looking in one direction and looking for the best way to connect the supply chain, saving money and time. In this way we are all aligned that the standard can speed up the traceability implementation and it is the initial step to have a connected supply chain using a neutral standard.
 
 This neutral standard can solve the problem we have today where we have many Level 4 companies in the market that have a lot of data but no standard connections among them. This situation is forcing trading partners to manage many connections to keep their business running increasing the operational costs for all players.
