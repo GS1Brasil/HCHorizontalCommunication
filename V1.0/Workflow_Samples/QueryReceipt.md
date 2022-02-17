@@ -24,7 +24,7 @@ To perform this operation, a QueryRequest message has to be created and sent thr
 ### Creating the QueryRequest
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?><QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-27T06:13:29Z" id="123456978696050595050AAAABBBDDDDD" schemaVersion="1.0">
+<?xml version="1.0" encoding="UTF-8"?><QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-27T06:13:29Z" id="8f86faf9-f1f1-4b43-893a-614de3ff752d" schemaVersion="1.0">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>
@@ -64,7 +64,7 @@ The Distributor webservice will answer with the list of the errors.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<QueryResponse id="123456978696050595050AAAABBBDDDDD" date="2021-10-06T12:52:01Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<QueryResponse id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-10-06T12:52:01Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>
@@ -86,7 +86,7 @@ The Distributor webservice will answer with the list of the errors.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<QueryResponse id="123456978696050595050AAAABBBDDDDD" date="2021-10-06T12:52:01Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<QueryResponse id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-10-06T12:52:01Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
    <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>

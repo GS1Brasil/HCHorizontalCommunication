@@ -3,6 +3,8 @@
 
 This file is part of the work made by GS1 Brazil Horizontal Communication Workgroup.
 
+Version 1.0.1 - Update in the ID of the message to UUID4 - Rodrigo Klein - @rodrigoklein
+
 -->
 <xs:schema elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -16,7 +18,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
 		</xs:annotation>
         <xs:restriction base="xs:string">
             <xs:maxLength value="50" />
-            <xs:pattern value="[A-Z][0-9]" />
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89aAbB][a-f0-9]{3}-[a-f0-9]{12}"/>
         </xs:restriction>
     </xs:simpleType>
     
@@ -154,7 +156,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                         minOccurs="1"
                         maxOccurs="1" />
             <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="unbounded"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="unbounded"></xs:element>
         </xs:sequence>
     </xs:complexType>
     
@@ -193,7 +195,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                 </xs:element>
 
                 <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="unbounded"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
             <xs:attribute name="id"
                           type="id" />
@@ -230,7 +232,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                                 type="ResponseList" />
                 
                 <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="unbounded"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
             <xs:attribute name="id"
                           type="id" />
@@ -288,7 +290,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                             minOccurs="1" />
 
                 <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="unbounded"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="unbounded"></xs:element>
             
             </xs:sequence>
                         <xs:attribute name="id"
@@ -320,7 +322,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
                             minOccurs="1"
                             maxOccurs="1" />            
                 <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="1"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="1"></xs:element>
 
             </xs:sequence>
             <xs:attribute name="id"
@@ -366,7 +368,7 @@ This file is part of the work made by GS1 Brazil Horizontal Communication Workgr
 				</xs:choice>
 
                 <xs:element name="additionalInfo"
-                            type="infolist" maxOccurs="unbounded"></xs:element>
+                            type="infolist" minOccurs="0" maxOccurs="unbounded"></xs:element>
                 
                 </xs:sequence>
                 <xs:attribute name="id"

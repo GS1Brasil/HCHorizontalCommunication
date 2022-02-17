@@ -25,7 +25,7 @@ To do this, the distributor has to create the QueryRequest message and send to t
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-27T06:13:29Z" id="123456978696050595050AAAABBBDDDDD" schemaVersion="1.0">
+<QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-27T06:13:29Z" id="8f86faf9-f1f1-4b43-893a-614de3ff752d" schemaVersion="1.0">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>83042274000167</partnerValue>
@@ -67,7 +67,7 @@ The manufacturer’s webservice will answer with the list of messages involved o
 
 ````xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<QueryResponse id="123456978696050595050AAAABBBDDDDD" date="2021-10-04T16:16:40Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<QueryResponse id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-10-04T16:16:40Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>

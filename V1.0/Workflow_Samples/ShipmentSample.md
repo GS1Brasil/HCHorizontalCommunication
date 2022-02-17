@@ -100,7 +100,7 @@ When the manufacturer packs this message into the InboundMessage, the XML below 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<InboundMessage id="123456978696050595050AAAABBBDDDDD" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<InboundMessage id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>
@@ -128,7 +128,7 @@ Once the XML is created, the manufacturer needs to send the InboundMessage to th
    <soapenv:Body>
       <ws:sendMessage>
          <inboundMessage><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<InboundMessage id="123456978696050595050AAAABBBDDDDD" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<InboundMessage id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>
@@ -160,7 +160,7 @@ The webservice will receive the message and will need to return an InboundRespon
    <soap:Body>
       <ns2:sendMessageResponse xmlns:ns2="http://ws.med.healthcare.gs1br.org/">
          <return><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<InboundResponse id="F02529FCC82C42229898D3451A4E897E" date="2021-10-01T14:32:51Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<InboundResponse id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-10-01T14:32:51Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>83042274000167</partnerValue>
@@ -187,7 +187,7 @@ If you get an error tag instead of a receipt, be aware that the message cannot b
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<InboundResponse id="123456978696050595050AAAABBBDDDDD" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<InboundResponse id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-09-29T10:26:49Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>

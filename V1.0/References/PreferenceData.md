@@ -7,7 +7,7 @@ The PreferenceData is the message returned by the getPreferences webservice meth
 
 |Field|Description|Data Type|Sample|Note|
 |-----|-----------|---------|------|----|
-|id|The Message ID|Alphanumeric String|123456978696050595050AAAABBBDDDDD| The ID has to be unique for the Trading Partner|
+|id|The Message ID|Alphanumeric String|8f86faf9-f1f1-4b43-893a-614de3ff752d| The ID has to be unique for the Trading Partner|
 |date|Message Generation Date|Datetime with Timezone|2021-10-03T22:06:45Z| The date reference is always defined as GMT-0|
 |schemaVersion|The version of the GS1 HC Schema used|Double|1.0||
 |partner|The source partner of the response|Partner (see XSD)|```<partner><partnerKey>CNPJ</partnerKey><partnerValue>15041786000176</partnerValue></partner>```||
@@ -16,7 +16,7 @@ The PreferenceData is the message returned by the getPreferences webservice meth
 ##### Sample
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PreferenceData id="123456978696050595050AAAABBBDDDDD" date="2021-10-04T16:16:40Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
+<PreferenceData id="8f86faf9-f1f1-4b43-893a-614de3ff752d" date="2021-10-04T16:16:40Z" schemaVersion="1.0" xmlns="http://hc.gs1br.org.br/">
     <partner>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15041786000176</partnerValue>

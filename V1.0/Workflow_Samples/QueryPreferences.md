@@ -27,7 +27,7 @@ To perform this operation, a QueryRequest message has to be created and sent thr
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-28T04:57:01Z" id="123456978696050595050AAAABBBDDDDD" schemaVersion="1.0">
+<QueryRequest xmlns="http://hc.gs1br.org.br/" date="2021-09-28T04:57:01Z" id="8f86faf9-f1f1-4b43-893a-614de3ff752d" schemaVersion="1.0">
     <sender>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>15042274000195</partnerValue>
@@ -53,7 +53,7 @@ The Distributor webservice will answer with the list of host preferences.
 
 ````xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PreferenceData id="056B8150AA384A8FA08990C7AE01E7ED" xmlns="http://hc.gs1br.org.br/">
+<PreferenceData id="8f86faf9-f1f1-4b43-893a-614de3ff752d" xmlns="http://hc.gs1br.org.br/">
     <partner>
         <partnerKey>CNPJ</partnerKey>
         <partnerValue>83042274000167</partnerValue>
